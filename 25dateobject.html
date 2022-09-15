@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date in javascript</title>
+</head>
+
+<body>
+    <script>
+        // var d = new Date();
+        // var d = new Date(2019, 2, 5  );
+        // document.write(d);
+
+
+
+
+
+        var dateObj = new Date();
+        var month = dateObj.getUTCMonth() + 1;
+        var day = dateObj.getUTCDate();
+        var yaer = dateObj.getFullYear();
+        document.write(yaer + "/" + month + "/" + day);
+
+
+        // var d = new Date();
+        // document.write("<br>");
+        // d.setMonth(8);
+        // d.setFullYear(2022, 8, 3);
+        // d.setDate(20);
+        // document.write(d);
+
+    </script>
+</body>
+
+</html>
